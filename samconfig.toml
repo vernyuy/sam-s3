@@ -15,7 +15,6 @@ lint = true
 
 [default.deploy.parameters]
 capabilities = "CAPABILITY_IAM"
-confirm_changeset = true
 s3_prefix = "sam-s3"
 region = "us-east-1"
 image_repositories = []
